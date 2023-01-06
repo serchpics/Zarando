@@ -1,0 +1,181 @@
+/*GENERAL*/
+* {
+	margin: 0;
+}
+
+p {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+main {
+	padding-top: 80px;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+
+/*HEADER*/
+.header {
+	display: flex;
+	flex-direction: row;
+	vertical-align: middle;
+	background-color: lightblue;
+	height: 80px;
+	align-items: center;
+	font-weight: 700;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+
+.headerName{
+	margin-left: 30px;
+}
+
+.headerName p {
+	font-size: 30px;
+}
+
+.headerInfo {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: auto;
+}
+
+.headerInfo p {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.headerInfoElem {
+	margin-right: 30px;
+}
+
+
+/*MAIN*/
+.sections, .highlights {
+	margin: 25px 50px 25px 50px;
+	background-color: #FFD6F4;
+	height: fit-content;
+}
+
+.sectionTittle {
+	text-align: center;
+	font-weight: 700;
+	padding-top: 20px;
+	font-size: 20px;
+}
+
+.typeDiv {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.type {
+	height: fit-content;
+	margin: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.sections .type {
+	width: width: 440px;;
+}
+
+.text {
+	margin: 10px 0 10px 0;
+	text-align: center;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.image {
+	height: fit-content;
+}
+
+.image img {
+	width: 440px;
+	height: 340px;
+	object-fit: cover;
+	object-position: top;
+}
+
+.highlights {
+	background-color: #FFDAD6;
+}
+
+.highlights .type {
+	width: width: 300px;;
+}
+
+.seasonalHighlights {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.seasonalHighlights .type {
+	height: fit-content;
+	margin: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.seasonalHighlights .image img {
+	width: 300px;
+	height: 340px;
+	object-fit: cover;
+	object-position: top;
+}
+
+.backpack {
+	height: fit-content;
+}
+
+.backpack img{
+	width: 300px;
+	height: 340px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.seasonalHighlights .text {
+	width: 300px;
+}
+
+
+/*FOOTER*/
+footer{
+	margin: 25px 50px 25px 50px;
+}
+
+footer p{
+	font-weight: 300;
+	font-size: 14px;
+}
+
+footer hr{
+	margin: 5px -10px 5px -10px;
+}
+
+.footerInfo1, .footerInfo2 {
+	display: flex;
+	flex-direction: row;
+}
+
+.dublin {
+	margin-left: auto;
+}
+
+.footerP{
+	margin-right: 30px;
+}
